@@ -1,0 +1,107 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0b1020;
+  color: #e5e7eb;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #2563eb, #020617);
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+p { opacity: .9; }
+
+.server-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 25px 0;
+  font-size: 18px;
+}
+
+.buttons { margin-top: 25px; }
+
+.btn {
+  padding: 14px 32px;
+  background: #22c55e;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 5px;
+  display: inline-block;
+}
+
+.ghost {
+  background: transparent;
+  border: 2px solid #22c55e;
+  color: #22c55e;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #1e293b;
+  text-align: center;
+}
+
+.join {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.ip {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.discord {
+  text-align: center;
+  padding: 80px 20px;
+  background: #020617;
+}
+
+.sub {
+  text-align: center;
+  padding: 60px 20px;
+  background: #020617;
+}
+
+.rules {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.rules ul {
+  font-size: 18px;
+  line-height: 2;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #020617;
+  color: #94a3b8;
+}
